@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" >
+<head>
+
+  <meta charest="UTF-8">
+    <title>control</title>
+    <link rel="stylesheet" href="2/styleee.css">
+    <script src="ja.js"></script>
+   
+</head>
+<body>
+  <header class="bstyle">     
+  </header>
+</html>
+
+  <section>
+        <div class="slidercontainer">
+            <h3>محرك 1</h3> <input type="range" min="0" max="180" value="50" class="slider" id="Arange">
+            <p>  Value: <span id="A"></span></p>
+          </div>
+          
+          <script>
+            var ASliderRange = document.getElementById("Arange");
+                var Aoutput = document.getElementById("A");
+                Aoutput.innerHTML = ASliderRange.value;
+                ASliderRange.oninput = function() {
+                  Aoutput.innerHTML = this.value;
+                }
+            </script>
+            
+        <div class="slidercontainer">
+          <h3>محرك 2</h3>
+          <input type="range" min="0" max="180" value="50" class="slider" id="Brange">
+          <p>  Value: <span id="B"></span></p>
+          </div>
+          
+          <script>
+            var BSliderRange = document.getElementById("Brange");
+                var Boutput = document.getElementById("B");
+                Boutput.innerHTML = BSliderRange.value;
+                BSliderRange.oninput = function() {
+                  Boutput.innerHTML = this.value;
+                }
+            </script>
+  
+      <div class="slidercontainer">
+          <h3>محرك 3</h3>
+          <input type="range" min="0" max="180" value="50" class="slider" id="Crange">
+          <p>  Value: <span id="C"></span></p>
+      </div>
+      
+      <script>
+        var CSliderRange = document.getElementById("Crange");
+            var Coutput = document.getElementById("C");
+            Coutput.innerHTML = CSliderRange.value;
+            CSliderRange.oninput = function() {
+              Coutput.innerHTML = this.value;
+            }
+        </script>
+      <div class="slidercontainer">
+          <h3>محرك 4</h3>
+          <input type="range" min="0" max="180" value="50" class="slider" id="Drange">
+          <p>  Value: <span id="D"></span></p>
+      </div>
+      
+      <script>
+        var DSliderRange = document.getElementById("Drange");
+            var Doutput = document.getElementById("D");
+            Doutput.innerHTML = DSliderRange.value;
+            DSliderRange.oninput = function() {
+              Doutput.innerHTML = this.value;
+            }
+        </script>
+      <div class="slidercontainer">
+          <h3>محرك 5 </h3>
+          <input type="range" min="0" max="180" value="50" class="slider" id="Erange">
+          <p>  Value: <span id="E"></span></p>
+      </div>
+      
+      <script>
+        var ESliderRange = document.getElementById("Erange");
+            var Eoutput = document.getElementById("E");
+            Eoutput.innerHTML = ESliderRange.value;
+            ESliderRange.oninput = function() {
+              Eoutput.innerHTML = this.value;
+            }
+        </script>
+      
+      <div class="slidercontainer">
+          <h3>محرك 6</h3>
+          <input type="range" min="0" max="180" value="50" class="slider" id="Frange">
+          <p>  Value: <span id="F"></span></p>
+          </div>
+          
+          <script>
+            var FSliderRange = document.getElementById("Frange");
+                var Foutput = document.getElementById("F");
+                Foutput.innerHTML = FSliderRange.value;
+                FSliderRange.oninput = function() {
+                  Foutput.innerHTML = this.value;
+                }
+            </script>
+         
+  
+       
+
+    <button type="button" class="btn">حفظ</button>
+    <button type="button" class="btn">تشغيل</button>
+
+  </section>
+    </body>
+  <footer class="bstyle">
+
+  </footer>
+
+ 

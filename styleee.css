@@ -1,0 +1,45 @@
+.bstyle{
+    background-color:rgb(37, 116, 180) ;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+.slidercontainer{
+    width: 100%;
+}
+.slider {
+    width: 50%;
+    height: 25px;
+    background:#D3D3D3;
+    outline: none;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer; 
+}
+.btnstyle{
+    margin: .2em 15% 2em 15%;
+    color:black;
+    border:2px solid orange ;
+    background-color: white;
+    border-radius: 10%;
+}
+.btnstyle:hover{
+    background-color: gray;
+}
+.left{
+transform: translate(50%,500%);
+}
+.right{
+    transform: translate(65%,470%);
+
+}
+.forward{
+
+    transform: translate(30%,390%);
+}
+.backward{
+transform: translate(55%,390%)
+}
